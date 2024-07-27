@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+  }
+  :root {
+    --golden: #CA9828;
+    --black: black;
+    --white: #ffffff;
+    --light-gray:#F9F9F9;
+  }
+  .text-golden{
+    color: var(--golden);
+  }
+  .bg-gray{
+    background-color: rgb(228, 228, 224);
+  }
+  .bg-light-gray{
+  background-color: var(--light-gray);
+  }
+  .bg-golden {
+    background-color: var(--golden);
+  }
+
+  .bg-golden-btn .btn {
+    color: var(--white);
+    background-color: var(--golden);
+  }
+  .padding-top{
+    padding-top: 90px;
+  }
+  .padding-top-1{
+    padding-top: 60px;
+  }
+  .logo-title {
+    font-size: 25px;
+    color: var(--golden);
+  }
+
+  .section-1 {
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(0deg, rgba(10, 10, 10, 0.712), rgba(8, 8, 8, 0.3)), url(picture.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+    position: relative;
+  }
+  .section1-title{
+    color: var(--golden);
+    font-size: 42px;
+  }
+  .section2-img{
+    width: 100%;
+    height: 310px;
+  }
+  .transform{
+  transform: translateY(-120px);
+  }
+  .hover-item:hover{
+    color: var(--golden);
+  }
+  .hover-item{
+    color: white;
+  }
+  .text-golden{
+    color: var(--golden);
+  }
+  /* section 2 */
+  .hover-line{
+    color: var(--golden);
+    font-weight: bold;
+
+  }
+  .hover-line:hover{
+    color: var(--black);
+  }
+  /* section-3 */
+  .discount input{
+    width: 565px;
+    height: 54px;
+    padding-left: 10px;
+    border: 2px solid var(--golden);
+    border-radius: 3px;
+  }
+  .discount select{
+    border: 2px solid var(--golden);
+  }
+  .text-golden{
+    color: var(--golden);
+  }
+
+  /* section-4 */
+  .icon-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: block;
+    padding-top: 5px;
+    color: white;
+    background-color: var(--golden);
+    padding-left: 10px;
+  }
+  .icon-type {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    list-style: none;
+    padding: 0px;
+  }
+
+  .icon-item {
+    font-size: 25px;
+  }
+  .contact input{
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid var(--golden);
+    border-radius: 3px;
+  }
+  .contact textarea{
+    width: 500px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border: 1px solid var(--golden);
+  }
+  .btn-contact{
+      background: var(--golden);
+  margin-right: 76px;
+  }
+  .contact-main{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 6px 30px rgb(0 0 0 / 40%);
+  }
+  .contact-border{
+    border: 2px solid var(--golden);
+    padding-top: 15px;
+  width: 1000px;
+  margin-left: 140px;
+  }
+  .icon i{
+    color: white;
+    background-color: var(--golden);
+    padding: 5px;
+
+  }
+  .map iframe{
+    width: 600px;
+    height: 450px;
+  }
+  /* footer */
+  .footer-title{
+    font-size: 23px;
+    color: var(--golden);
+  }
+  .list-style{
+    list-style: none;
+  }
+  .icon-color{
+    color: var(--golden);
+  }
+  /* plot page*/
+  .color-star{
+      color: var(--golden);
+  }
+  .seprator-wapper::after, .seprator-wapper::before {
+      background-color: var(--golden);
+      display: inline-block;
+      vertical-align: middle;
+      content: "";
+      width: 80px;
+      height: 2px;
+      margin-top: -6px;
+  }
+
+  /* polt div */
+  .plot-shadow{
+    border-radius: 20px;
+    box-shadow: 0px 6px 30px rgb(0 0 0 / 20%);
+  }
+  .pricing-top{
+      background-color: var(--golden);
+  }
+  .top-heading{
+      color: var(--white);
+      font-size:40px;
+      font-weight: bold;
+      text-align: center;
+     font-family: 'Times New Roman', Times, serif;
+
+  }
+  .pricing-top .price .currency {
+      color: #fff;
+      font-size: 24px;
+      line-height: 40px;
+      font-weight: 600;
+      vertical-align: top;
+      display: inline-block;
+  }
+
+  .pricing-top .price span.number {
+      color: #fff;
+      font-size: 36px;
+      line-height: 42px;
+      font-weight: 700;
+  }
+  .pricing-top .price .month {
+      font-size: 16px;
+      line-height: 18px;
+      font-weight: 600;
+      color: #fff;
+  }
+  .card-color{
+      background-color: var(--light-gray);
+  }
+  .font-plot-heading{
+  font-size: 24px;
+  color:var(--golden);
+  }
+  @media (max-width: 576px) {
+    .custom-width-input{
+      width: 370px;
+      height: 50px;
+      margin-bottom: 20px;
+    }
+    .btn-decoration .btn{
+      margin-top: 20px;
+    }
+  }
+  /* login and register */
+  .login-heading{
+    color: var(--golden);
+  }
+  .bg-login{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("picture.jpg"), #000;
+    background-position: center;
+    background-size: cover;
+  }
+  .login-form{
+    border-radius: 8px;
+    padding-block: 20px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+  }
+  .input-field {
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    margin: 15px 0;
+  }
+
+  .input-field label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 16px;
+    pointer-events: none;
+    transition: 0.15s ease;
+  }
+
+  .input-field input {
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .input-field input:focus~label,
+  .input-field input:valid~label {
+    font-size: 0.8rem;
+    top: 2px;
+  }
+  .btn-login{
+      background: var(--golden);
+
+  }
+  .btn-login:focus{
+      display: none;
+  }
+  .btn-login:hover{
+    color: #fff;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+  }
+  .btn-discount{
+    color: white;
+  }
+  .btn-discount:hover{
+background-color: aliceblue;
+color: var(--golden);
+border: 1px solid var(--golden);
+  }
+  @media (max-width: 576px) {
+    .contact input {
+      width: 365px; /* Adjust width as needed */
+    }
+    .contact textarea{
+      width: 365px;
+    }
+    .btn-contact{
+      width: 110px;
+     margin-left: 120px;
+    }
+    .map iframe{
+      width: 363px;
+      height: 363px;
+    }
+    .contact-border{
+      display: none;
+    }
+    .discount input{
+      width: 365px;
+    }
+  }
